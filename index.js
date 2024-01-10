@@ -21,7 +21,7 @@ app.use(
 
 app.use(express.json())
 
-app.use('/tasks',tasksRoutes)
+app.use('',tasksRoutes)
 
 // app.use(express.static('public'))
 
